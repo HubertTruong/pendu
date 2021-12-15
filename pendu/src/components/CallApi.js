@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react'
+import Word from './Word/Word'
+import usedLetter from './Word/Word'
 
 const GOOD_LETTER = "AZERTYUIOPQSDFGHJKLMWXCVBNazertyuiopqsdfghjklmwxcvbnéàâêè";
 function CallApi() {
@@ -35,11 +37,18 @@ if(!word){
     return <p>Waiting...</p>
 }
 
+/*
 return (
     <div>
-        <p>{word.word.charAt(0)}</p>
+        <p>{word.word}</p>
+        <Word currentWord={word.word} usedLetter={usedLetter} /> 
+    </div>   
+)*/
+return (
+    <div>
+        <p>{word.word}</p>
     </div>
-)
+)    
 
 }
 

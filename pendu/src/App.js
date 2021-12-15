@@ -4,6 +4,7 @@ import './App.css'
 import Home from './components/Home/Home'
 import CallApi from './components/CallApi'
 import Keyboard from './components/Keyboard/Keyboard'
+import Leaderboard from './components/Leaderboard'
 
 
 function App() {
@@ -20,8 +21,9 @@ function App() {
     >
       <button onClick={toggleTheme}>Dark / Light Mode</button>
       <Home />
-      <CallApi />
+      <CallApi /> 
       <Keyboard />
+      <Leaderboard />
     </div>
   );
 }
