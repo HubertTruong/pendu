@@ -19,7 +19,7 @@ function App() {
         {backgroundColor: theme.backgroundColor, color: theme.color}
       }
     >
-      <button onClick={toggleTheme}>Dark / Light Mode</button>
+      <button onClick={toggleTheme}>☀️ | 🌑</button>
       <Home />
       <CallApi /> 
       <Keyboard />

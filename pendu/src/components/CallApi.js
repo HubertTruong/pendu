@@ -37,13 +37,6 @@ if(!word){
     return <p>Waiting...</p>
 }
 
-/*
-return (
-    <div>
-        <p>{word.word}</p>
-        <Word currentWord={word.word} usedLetter={usedLetter} /> 
-    </div>   
-)*/
 return (
     <div>
         <p>{word.word}</p>

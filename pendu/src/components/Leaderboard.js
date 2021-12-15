@@ -19,7 +19,7 @@ function Leaderboard() {
 
     return (
         <div className="leaderboard">
-            <h2>CLASSEMENT :</h2>
+            <h2>🏆 CLASSEMENT :</h2>
             <React.Fragment>
                 {map(datas, (data) =>
                     map(data, (score) =>
