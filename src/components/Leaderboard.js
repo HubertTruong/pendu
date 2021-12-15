@@ -17,6 +17,10 @@ function Leaderboard() {
         fetchData();
     }, [])
 
+    /*if(score.username.exists()) {
+        return "L'UTILISATEUR EXISTE DEJA"
+    }*/
+
     return (
         <div className="leaderboard">
             <h2>🏆CLASSEMENT :</h2>
