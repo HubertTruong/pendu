@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pendu/static/css/main.e7d391db.css",
+    "main.js": "/pendu/static/js/main.ae7ddfa2.js",
+    "static/js/787.8dfb651d.chunk.js": "/pendu/static/js/787.8dfb651d.chunk.js",
+    "index.html": "/pendu/index.html",
+    "main.e7d391db.css.map": "/pendu/static/css/main.e7d391db.css.map",
+    "main.ae7ddfa2.js.map": "/pendu/static/js/main.ae7ddfa2.js.map",
+    "787.8dfb651d.chunk.js.map": "/pendu/static/js/787.8dfb651d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7d391db.css",
+    "static/js/main.ae7ddfa2.js"
+  ]
+}

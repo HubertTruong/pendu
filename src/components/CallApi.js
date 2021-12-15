@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import Word from './Word/Word'
-import usedLetter from './Word/Word'
 
 const GOOD_LETTER = "AZERTYUIOPQSDFGHJKLMWXCVBNazertyuiopqsdfghjklmwxcvbnéàâêè";
 function CallApi() {
