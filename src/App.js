@@ -9,7 +9,7 @@ import Leaderboard from './components/Leaderboard'
 
 function App() {
 
-  const [{theme, isDark}, toggleTheme] = useContext(ThemeContext);
+  const [{theme}, toggleTheme] = useContext(ThemeContext);
   console.log("theme", theme);
 
   return (
